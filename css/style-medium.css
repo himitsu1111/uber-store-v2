@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+  header {
+    min-width: 768px;
+  }
+
+  .header_content {
+    width: 752px;
+    justify-content: unset;
+  }
+  .header_content_button-asap {
+    display: block;
+  }
+  .header_content_button-location {
+    display: block;
+  }
+
+  .main-wrapper {
+    min-width: 768px;
+  }
+
+  .main {
+    width: 752px;
+  }
+
+  .wide-underscore {
+    width: 752px;
+  }
+}
+
+/*# sourceMappingURL=style-medium.css.map */

@@ -1,8 +1,16 @@
-.header-asap_font {
+.header-sign-in_font {
   color: #1d1d1d;
   font-size: 11px;
   line-height: 13px;
   font-weight: 500;
+  font-family: Roboto;
+}
+
+.header-asap_font {
+  color: #1d1d1d;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
   font-family: Roboto;
 }
 
@@ -11,6 +19,14 @@
   font-size: 11px;
   line-height: 13px;
   font-weight: 500;
+  font-family: Roboto;
+}
+
+.search_font {
+  color: #fff;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
   font-family: Roboto;
 }
 

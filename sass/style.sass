@@ -35,40 +35,54 @@ header
 	height: $header-buttons-mobile
 	padding-top: 16px
 	&_button-asap
+		padding: 8px 0px
+		display: none
+	&_button-location
+		padding: 8px 0px
+		width: 215px
+		display: none
+	&_button-sign-in
 		margin-left: 46px
 	&_button-register
 		margin-left: 12px
 		background-color: #262626
+.icon-img-location
+	content: url('../svg/map_pin_icon.svg')
+	display: inline-flex
+	align-items: center
+	margin-right: 12px
 
 .search
 	margin-top: 16px
 	display: flex
-	justify-content: center
-	align-items: center
 	&_input
 		border: none
+		width: 250px
 		margin-left: 8px
 	&:focus
 		outline: none
 		&::placeholder
-		color: #626262
-		opacity: 0.5
+			color: #626262
+			opacity: 0.5
 	&_icon_loupe
-		content: url('../svg/loupe.svg')
+		content: url('../svg/search-small.svg')
 
 .main-wrapper
 	min-width: $max-width-mobile
 .main
 	display: flex
+	flex-direction: column
 	margin: auto
-	justify-content: center
-	align-items: center
+	// justify-content: center
+	// align-items: center
 	width: $width-mobile
 
 .wide-underscore
 	margin: 0 auto
 	height: 1px
-	min-width: inherit
+	width: $width-mobile
 	margin-top: 15px
 	background: #757575
 	opacity: 0.3
+
+@import style-medium

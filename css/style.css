@@ -40,6 +40,15 @@ header {
   padding-top: 16px;
 }
 .header_content_button-asap {
+  padding: 8px 0px;
+  display: none;
+}
+.header_content_button-location {
+  padding: 8px 0px;
+  width: 215px;
+  display: none;
+}
+.header_content_button-sign-in {
   margin-left: 46px;
 }
 .header_content_button-register {
@@ -47,23 +56,31 @@ header {
   background-color: #262626;
 }
 
+.icon-img-location {
+  content: url("../svg/map_pin_icon.svg");
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
 .search {
   margin-top: 16px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .search_input {
   border: none;
+  width: 250px;
   margin-left: 8px;
 }
 .search:focus {
   outline: none;
+}
+.search:focus::placeholder {
   color: #626262;
   opacity: 0.5;
 }
 .search_icon_loupe {
-  content: url("../svg/loupe.svg");
+  content: url("../svg/search-small.svg");
 }
 
 .main-wrapper {
@@ -72,19 +89,47 @@ header {
 
 .main {
   display: flex;
+  flex-direction: column;
   margin: auto;
-  justify-content: center;
-  align-items: center;
   width: 308px;
 }
 
 .wide-underscore {
   margin: 0 auto;
   height: 1px;
-  min-width: inherit;
+  width: 308px;
   margin-top: 15px;
   background: #757575;
   opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  header {
+    min-width: 768px;
+  }
+
+  .header_content {
+    width: 752px;
+    justify-content: unset;
+  }
+  .header_content_button-asap {
+    display: block;
+  }
+  .header_content_button-location {
+    display: block;
+  }
+
+  .main-wrapper {
+    min-width: 768px;
+  }
+
+  .main {
+    width: 752px;
+  }
+
+  .wide-underscore {
+    width: 752px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

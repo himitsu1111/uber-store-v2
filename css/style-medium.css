@@ -9,9 +9,24 @@
   }
   .header_content_button-asap {
     display: block;
+    margin-left: 22px;
+  }
+  .header_content_span-to {
+    display: inline;
   }
   .header_content_button-location {
+    display: flex;
+  }
+  .header_content_basket-img {
     display: block;
+  }
+  .header_content_button-sign-in {
+    width: 80px;
+    margin-left: 88px;
+  }
+  .header_content_button-register {
+    width: 80px;
+    margin-left: 16px;
   }
 
   .main-wrapper {

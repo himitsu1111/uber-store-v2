@@ -42,18 +42,33 @@ header {
 .header_content_button-asap {
   padding: 8px 0px;
   display: none;
+  width: 57px;
+  height: inherit;
+}
+.header_content_span-to {
+  display: none;
+  margin-left: 10px;
 }
 .header_content_button-location {
   padding: 8px 0px;
   width: 215px;
+  margin-left: 10px;
   display: none;
+  height: inherit;
 }
 .header_content_button-sign-in {
   margin-left: 46px;
+  height: inherit;
 }
 .header_content_button-register {
   margin-left: 12px;
   background-color: #262626;
+  height: inherit;
+}
+.header_content_basket-img {
+  margin-left: 27px;
+  margin-right: 12px;
+  display: none;
 }
 
 .icon-img-location {
@@ -114,9 +129,24 @@ header {
   }
   .header_content_button-asap {
     display: block;
+    margin-left: 22px;
+  }
+  .header_content_span-to {
+    display: inline;
   }
   .header_content_button-location {
+    display: flex;
+  }
+  .header_content_basket-img {
     display: block;
+  }
+  .header_content_button-sign-in {
+    width: 80px;
+    margin-left: 88px;
+  }
+  .header_content_button-register {
+    width: 80px;
+    margin-left: 16px;
   }
 
   .main-wrapper {
